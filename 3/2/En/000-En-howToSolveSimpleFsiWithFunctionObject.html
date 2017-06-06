@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h2 id="implementation-of-simple-fsi-model-with-functionobject">Implementation of simple FSI model with functionObject</h2>
+<p><strong>Instructor:</strong> Ilia Marchevsky, PhD, assoc. prof., BMSTU (Russia)</p>
+<p><strong>Training type:</strong> Intermediate</p>
+<p><strong>Session type:</strong> Hands-on</p>
+<p><strong>Software stack:</strong> OpenFOAM 4.1, OpenFOAM 3.0.x</p>
+<p><strong>Developers of this session:</strong></p>
+<ul>
+<li><p>I. Marchevsky, Russia</p></li>
+<li><p>M. Kraposhin, Russia</p></li>
+</ul>
+<p><strong>Development team website:</strong> <a href="https://unicfd.ru">https://unicfd.ru</a></p>
+<p><strong>Presentation language:</strong> English</p>
+<p><strong>Description:</strong></p>
+<p>The training session begins with short introduction to fluid-structure interaction (FSI) problems, overview and classification of cases which arises in real world. One of the most simple and common cases of FSI is the weakly coupled motion with 1-2 degrees of freedom of solid body in fluid flow. This one has been selected for demonstration of OpenFOAM's capability to create complex numerical FSI models. In this course the particular real-world example is considered – flow-induced vibration of cylinder, connected to one or two linear viscous-elastic springs, see next figure. Mathematical model is formulated for this case.</p>
+<div style="width:500px">
+<img src="../Fig/howToSolveSimpleFsiWithFunctionObject/SCHEMA.png" style="width:100%" />
+</div>
+<p>With respect to this example, different approaches for solution of this problem are discussed. Difference between the custom solver, functionObject and fvOption classes is presented in discussion. The choice of standard OpenFOAM solver pimpleDyMFoam coupled with functionObject for the solution of the current case is argued. The development procedure steps of user-defined functionObject is presented: setup of the custom dynamic library, creation of class which inherits the standard OpenFOAM library “forces”, mesh motion issues, coordinate system transformation, restarts implementation from stored time points , etc. During the track we will compile our FSI class and will run simulation with the new library.</p>
+<p>After running simulation, we will obtain evolution of hydrodynamic fields (velocity and pressure) and position of cylinder's boundary - see animation.</p>
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/s3IM-g6tPK8">
+</iframe>
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tosM8sNfkho">
+</iframe>
+
+<p>Then results of FSI simulation will be compared to experimental observations and results of other codes.</p>
+<p>The attendees will require good knowledge of setting up cases, running/modifying tutorial cases as well as basic understanding of programming/compiling source code. This module will be hands-on. The attendees will require a laptop with a current OpenFOAM installation or - preferably - be able to boot the conference USB stick.</p>
+<p>Materials of this tutorial are located at git archive and can be downloaded from github</p>
+<ul>
+<li><p>For OpenFOAM 4.1 at <a href="https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/simpleFsi-OF4.1">https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/simpleFsi-OF4.1</a></p></li>
+<li><p>For OpenFOAM 3.0.0 at <a href="https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/simpleFsi-OF3.0.0">https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/simpleFsi-OF3.0.0</a></p></li>
+</ul>
+</body>
+</html>
