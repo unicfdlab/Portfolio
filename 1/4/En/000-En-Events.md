@@ -24,4 +24,38 @@ OpenFOAM. Overview of standard solvers in OpenFOAM.
 <http://academy.hpc-russia.ru/en>
 
 
+______________________________________________________________________________________________________________________
+
+
+From July, 24 to July, 27 2017
+------------------------------
+
+12th OpenFOAM® Workshop
+-----------------------
+
+The annual OpenFOAM® Workshop is the premier international forum for researchers, industrial users, code 
+developers, consultants and academics to come together and present their work, discuss the code, network, and 
+learn about new developments in OpenFOAM®. It is a community event, welcoming all users from novice 
+to experienced, and users of all branches of the code.
+
+OpenFOAM Workshop program at a glance:
+
+--------------------------------------------
+DAY                 ACTIVITY
+------------------- ------------------------
+Monday 24th July    Free Training day,
+                    24th Evening - Reception
+
+Tuesday 25th July   Conference presentations
+
+Wednesday 26th July Cultural program,
+                    26th Evening - Banquet
+
+Thursday 27th July  Community Day sessions
+--------------------------------------------
+
+**Official page**
+<http://www.openfoamworkshop.org>
+
+______________________________________________________________________________________________________________________
 
