@@ -55,6 +55,17 @@ are studied for the case of one dimensional flow. Different WENO limiters with g
 moments of order greater than zero. Results of simulation for well-known cases are presented. Ways of enhancement
 for three-dimensional case are discussed.
 
+*Video, part 1 (in Russian)*
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/waQyDZqcIS0">
+</iframe>
+
+*Video, part 2 (in Russian)*
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/6SQOwr5Ctjc">
+</iframe>
 
 ______________________________________________________________________________________________________________________
 
