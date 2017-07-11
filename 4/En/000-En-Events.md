@@ -45,9 +45,8 @@ Place: ISP RAS, 17:00, room 110
 
 Presenters:
 
-Lukin V.V. (Keldysh Institute of Applied Mathematics RAS)
-
-Marchevsky I. K. (Bauman Moscow State University)
+1. Lukin V.V. (Keldysh Institute of Applied Mathematics RAS)
+2. Marchevsky I. K. (Bauman Moscow State University)
 
 Approaches for construction of numerical solution of inviscid perfect gas dynamics equations using discontinuous
 Galerking method are considered. Questions of selection of basis functions, non-monotonicity indicators and limiters 
@@ -61,11 +60,15 @@ for three-dimensional case are discussed.
 src="https://www.youtube.com/embed/waQyDZqcIS0">
 </iframe>
 
+<a href="../Materials/__MCMSEMINAR/ispras17-Lukin.pdf"> Presentation by Lukin V.V. is here  </a>
+
 *Video, part 2 (in Russian)*
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/6SQOwr5Ctjc">
 </iframe>
+
+<a href="../Materials/__MCMSEMINAR/ispras17-Marchevsky.pdf"> Presentation by Marchevsky I.K. is here  </a>
 
 ______________________________________________________________________________________________________________________
 
