@@ -10,4 +10,11 @@ Engineering office of Dr. Beilke
 </div>
 </a>
 
-
+<a href="http://www.keldysh.ru/">
+<div style="width:375px">
+<center>
+Keldysh Institute of Applied Mathematics of RAS
+<img src="../Fig/keldysh-logo.gif" style="width:100%" />
+</center>
+</div>
+</a>
