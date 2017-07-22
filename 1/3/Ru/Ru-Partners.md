@@ -19,4 +19,16 @@
 </div>
 </a>
 
+<a href="http://fn.bmstu.ru/tm-fs-2">
+<div style="width:375px">
+<center>
+Московский государственный технический университет имени Н.Э. Баумана
+
+кафедра "Прикладная математика"
+
+<img src="../Fig/bmstu-logo.jpg" style="width:100%" />
+</center>
+</div>
+</a>
+
 

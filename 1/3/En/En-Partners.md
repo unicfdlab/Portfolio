@@ -18,3 +18,16 @@ Keldysh Institute of Applied Mathematics of RAS
 </center>
 </div>
 </a>
+
+<a href="http://fn.bmstu.ru/tm-fs-2">
+<div style="width:375px">
+<center>
+Bauman Moscow State Technical University
+
+Applied mathematics department
+
+<img src="../Fig/bmstu-logo.jpg" style="width:100%" />
+</center>
+</div>
+</a>
+
