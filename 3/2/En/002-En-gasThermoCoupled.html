@@ -11,9 +11,9 @@
 <p><strong>Development team website:</strong> <a href="http://unicfd.ru">http://unicfd.ru</a></p>
 <p><strong>Presentation language:</strong> English</p>
 <p><strong>Description:</strong></p>
-<p>The existing <em>chtMultiRegionFoam</em> / <em>chtMultiRegionSimpleFoam</em> solvers make it possible to solve coupled heat transfer problems in flow and solid but only at low Mach number for deep subsonic flows. In practice it is important to consider the same problem for wide range of the Mach number, both for subsonic and supersonic flows. Moreover, for real geometries in the computational domain we have to deal with sub- and supersonic regions of unsteady shape.</p>
-<p>For gas dynamics simulation in such problems an efficient OpenFOAM solver <em>pimpleCentralFoam</em> has been developed (<a href="https://github.com/unicfdlab/hybridCentralSolvers/tree/master/OpenFOAM-4.1">https://github.com/unicfdlab/hybridCentralSolvers/tree/master/OpenFOAM-4.1</a>) which uses hybrid Godunov-type / PIMPLE all Mach number approach for compressible flows.</p>
-<p>The aim of this training session is to show how to combine the advantages of coupling heat transfer scheme implemented in <em>chtMultiRegionFoam</em> with capabilities of <em>pimpleCentralFoam</em> solver.</p>
+<p>The existing <strong>chtMultiRegionFoam</strong> / <strong>chtMultiRegionSimpleFoam</strong> solvers make it possible to solve coupled heat transfer problems in flow and solid but only at low Mach number for deep subsonic flows. In practice it is important to consider the same problem for wide range of the Mach number, both for subsonic and supersonic flows. Moreover, for real geometries in the computational domain we have to deal with sub- and supersonic regions of unsteady shape.</p>
+<p>For gas dynamics simulation in such problems an efficient OpenFOAM solver <strong>pimpleCentralFoam</strong> has been developed (<a href="https://github.com/unicfdlab/hybridCentralSolvers/tree/master/OpenFOAM-4.1">https://github.com/unicfdlab/hybridCentralSolvers/tree/master/OpenFOAM-4.1</a>) which uses hybrid Godunov-type / PIMPLE all Mach number approach for compressible flows.</p>
+<p>The aim of this training session is to show how to combine the advantages of coupling heat transfer scheme implemented in <em>chtMultiRegionFoam</em> with capabilities of <strong>pimpleCentralFoam</strong> solver.</p>
 <div style="width:500px">
 <img src="../Fig/gasThermoCoupled/scheme.png" style="width:100%" />
 </div>
@@ -23,7 +23,7 @@
 <li>how to couple numerical models for heat transfer in gas and solid;</li>
 <li>test problems choice and simulations running.</li>
 </ol>
-<p>During the track we will compile our <em>myChtPimpleCentralFoam</em> solver and run simulation with it.</p>
+<p>During the track we will compile our <strong>myChtPimpleCentralFoam</strong> solver and run simulation with it.</p>
 <p>The attendees will require good knowledge of setting up cases, running/modifying tutorial cases as well as basic understanding of programming/compiling OpenFOAM source code. This module will be hands-on. The attendees will require a laptop with a current OpenFOAM installation or - preferably - be able to boot the conference USB stick.</p>
 <p>Materials of this tutorial are located at git archive and can be downloaded from <a href="http://www.github.com">http://www.github.com</a></p>
 <ul>

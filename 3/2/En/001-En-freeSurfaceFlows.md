@@ -21,11 +21,11 @@ Learning how to use free surface flows in OpenFOAM® 4.1
 
 Due to several changes made in OpenFOAM 2.3 
 and newer versions, this session aims to teach you how to 
-setup your cases accordingly to run with *interFoam*.
+setup your cases accordingly to run with **interFoam**.
 
 This will be a hybrid type of session: the training track will 
 be presented as a lecture with examples, which consists of two parts. 
-The first stage is the discussion on internal structure of *interFoam* 
+The first stage is the discussion on internal structure of **interFoam** 
 solver: governing equations and approximation techniques. The second 
 stage is the training session where the updated "Spillway" tutorial (see figure
 below) and Rayleigh-Taylor instability (see figure after "Spillway" tutorial)
@@ -42,14 +42,14 @@ will be presented.
 The structure of the training course is the following.
 
 1. Introduction: why free-surface flows are so interesting for researchers and engineers; key point of training course – boundary conditions in different versions of OpenFOAM.
-2. Overview of interFoam internal structure.
+2. Overview of **interFoam** internal structure.
 3. Description of the example case for the training course – "Spillway".
 4. Steps to run "Spillway" tutorial (see results in figures below):
-    (a) *blockMesh* utility and "blockMeshDict" structure;
-    (b) *snappyHexMesh* and *extrudeMesh* utilities;
+    (a) **blockMesh** utility and "blockMeshDict" structure;
+    (b) **snappyHexMesh** and **extrudeMesh** utilities;
     (c) boundary conditions setup (volume fraction/velocity/pressure);
     (d) "fvSchemes" and "fvSolution" setup;
-    (e) running *interFoam*; results comparision from different versions of OpenFOAM.
+    (e) running **interFoam**; results comparision from different versions of OpenFOAM.
 5. Running Rayleigh-Taylor instability case (see results in figures below).
 6. Conclusions and discussion.
 
