@@ -15,7 +15,7 @@ Implementation of simple FSI model with functionObject
 
 * M. Kraposhin, Russia
 
-**Development team website:** <https://unicfd.ru>
+**Development team website:** <http://unicfd.ru>
 
 **Presentation language:** English
 
@@ -59,9 +59,8 @@ The attendees will require good knowledge of setting up cases, running/modifying
 basic understanding of programming/compiling source code. This module will be hands-on. The attendees will require a 
 laptop with a current OpenFOAM installation or - preferably - be able to boot the conference USB stick.
 
-Materials of this tutorial are located at git archive and can be downloaded from github 
+Materials of this tutorial are located at git archive and can be downloaded from <http://www.github.com>
 
 * For OpenFOAM 4.1 at <https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/simpleFsi-OF4.1>
-
 * For OpenFOAM 3.0.0 at <https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/simpleFsi-OF3.0.0>
 

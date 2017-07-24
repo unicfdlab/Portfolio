@@ -15,7 +15,7 @@
 
 * М. Крапошин, Россия
 
-**Сайт команды разработчиков:** <https://unicfd.ru>
+**Сайт команды разработчиков:** <http://unicfd.ru>
 
 **Язык презентации:** English
 
@@ -67,9 +67,8 @@ src="https://www.youtube.com/embed/tosM8sNfkho">
 с установленным пакетом OpenFOAM или возможностью загрузки с USB-образа.
 
 Учебные материалы расположены на git архиве в свободном доступе и могут быть загружены
-с ресурса github:
+с ресурса <http://www.github.com>:
 
 * Для OpenFOAM 4.1 - <https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/simpleFsi-OF4.1>
-
 * Для OpenFOAM 3.0.0 - <https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/simpleFsi-OF3.0.0>
 
