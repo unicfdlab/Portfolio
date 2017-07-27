@@ -11,26 +11,28 @@
 
 Основные направления деятельности лаборатории включают в себя:
 
-+ разработка программного обе
++ разработка программного обеспечения для решения задач механики сплошных сред;
++ численное моделирование индустриальных задач, включая пре- и постпроцессинг;
++ создание расчётных сеток;
++ визуализация;
++ фундаментальные исследования;
++ обучение, консультирование.
 
-Main areas of activity within the laboratory are: 
-+ development of software for solving problems of mechanics of continuous media;
-+ numerical simulations including pre- and postprocessing of industrial problems;
-+ mesh generation;
-+ visualization;
-+ fundamental researches;
-+ education, consulting.
+Примеры свобдного программного обеспечения, разработанного нашим
+коллективом могут быть найдены на сайте <https://github.com/unicfdlab>.
+Репозитории обновляются регулярно в соответствии с последними
+результатами исследований.
 
-Examples of open-source software developed by our group can be found 
-at <https://github.com/unicfdlab>. We are updating repositories with
-latest changes permanently.
+Видео с результатами наших расчётов, учебные материалы и записи
+семинаров находятся в канале youtube "UNICFD LAB" 
+<https://www.youtube.com/channel/UCT0E3IuqMPudgP7Qpe13Eig>
 
-Videos with results of our simulations, training materials and seminars
-can be found in the youtube channel for UNICFD LAB <https://www.youtube.com/channel/UCT0E3IuqMPudgP7Qpe13Eig>
+В декабре каждого года нами организуется конференция
+посвящённая открытому программному обеспечению для
+решения задач механики сплошной среды
+<http://www.isprasopen.ru/en/conf/cfd.html>.
 
-In the December of each year we are organizing conference dedicated to
-open source software for solving coninuous media problems
-<http://www.isprasopen.ru/en/conf/cfd.html>
+Мы всегда открыты к сотрудничеству, как на коммерческой,
+так и некоммерческой основе.
 
-We are open for both commercial and non-profit cooperation.
 
