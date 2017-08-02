@@ -33,7 +33,27 @@ No     Title                                            Abstract
                                                         Mach numbers from 0.01 to 3 or higher The mesh convergence was analyzed. Comparison of the
                                                         results with the experimental and analytic data was carried out. The solver was tested in a parallel
                                                         mode on a computer cluster.
+
+3      <a href="http://www.ispras.ru/proceedings/       The hybrid method for approximation of advective terms is proposed in order to 
+       docs/2016/28/3/isp_28_2016_3_267.pdf">           resolve flows in the wide Mach numbers region. This hybrid method is based on the Kurganov-
+       Study of capabilities of hybrid scheme for       Tadmor (KT) scheme and projection method PISO (Pressure Implicit with Splitting Operators). 
+       advection terms approximation in mathematical    In order to study hybrid method properties a set of cases with analytical 
+       models of compressible flows                     solution or experimental data for different classes of flows was considered: 
+       </a>                                             a) compressible flows - propagation of the wave in straight  channel  
+                                                        (Sod's  Problem),  supersonic  flow  over  flat  wedge,  supersonic  flow  over 
+                                                        backward  step,  flow  over  forward  step  with  supersonic  velocities,  
+                                                        flow  in  supersonic converging-diverging nozzle with shock wave; 
+                                                        b) incompressible flows - subsonic flow of laminar viscous fluid in the channel 
+                                                        with circle cross section, flow around cylinder in laminar 
+                                                        and turbulent regimes, mixing of two gases in 2D flat channel; c) industrial and academic 
+                                                        verification tests - superisonic flow of air in NASA nozzle for pressure ratio 5, expansion of 
+                                                        stationary equilibrium hot plasma in vacuum; d) qualitative assessment of the hybrid method 
+                                                        adequacy  for  industrial  cases  -  numerical  simulation  of  flows  in  high  speed  micro-
+                                                        compressor, simulation of two-phase flow in liquid ring pump. All materials are available for 
+                                                        public access through GitHub project
+                                                         <a href="https://github.com/unicfdlab">github.com/unicfdlab</a>
 -------------------------------------------------------------------------------------------------------------
+
 
 
 Master and PhD Thesis
