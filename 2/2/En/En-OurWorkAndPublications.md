@@ -52,8 +52,19 @@ No     Title                                            Abstract
                                                         compressor, simulation of two-phase flow in liquid ring pump. All materials are available for 
                                                         public access through GitHub project
                                                          <a href="https://github.com/unicfdlab">github.com/unicfdlab</a>
--------------------------------------------------------------------------------------------------------------
 
+4       <a href="http://ispras.ru/proceedings/          Direct numerical simulation of internal gravity waves focusing and developement
+        docs/2014/26/5/isp_26_2014_5_117.pdf">          of a wave attractor was performed with the help of two different numerical approaches.
+        Direct numerical simulation of internal         Mathematical formulation corresponds to experiments on exitations of inner waves in a
+        gravity wave attractor in trapezoidal domain    trapezoidal container with salt solutions through forced oscillations of the left boundary. It
+        with oscillating vertical wall</a>              was shown that numerical simulations reproduce the experiments after taking into account
+                                                        ther imperfection of linear salinity profile near the upper boundary. The amplitudes of
+                                                        resulting oscillations in both numerical simulations are increased as compared to the
+                                                        experiments due to loss of energy of the 3D wave generator in the experiments. Despite the
+                                                        fact that the general shape of the attractor is reproduced by both method, there are differences
+                                                        in velocity profiles near the left boundary. This fact requires further investigations since this
+                                                        discrepancy may in influence nonlinear dynamics of developing instabilities.
+-------------------------------------------------------------------------------------------------------------
 
 
 Master and PhD Thesis
