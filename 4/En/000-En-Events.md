@@ -1,6 +1,30 @@
 Nearest events
 =================
 
+August, 30, 2017
+----------------
+
+2nd seminar of ISP RAS web-laboratory for Mechanics of a continuous medium
+--------------------------------------------------------------------------
+
+Place: ISP RAS, 17:00, room 110
+
+"Experimental study of the hydrodynamics of a droplet splash"
+
+Presenter:
+
+A.Yu. Ilinykh
+
+The results of the development of a technique for high-resolution recording of the flow structure
+during the immersion of a drop in a liquid and the analysis of experiments with miscible and immiscible
+media are presented. The main attention is paid to the visualization of the position of the streamers 
+of the primary contact of the droplet; investigation of the angular distribution of the scattered sprays;
+the study of distribution patterns of the falling drop matter over the surface of the crown and the 
+cavity in the target-liquid in the case of miscible and immiscible liquids, and also the determination 
+of short capillary waves parameters at various stages of the process.
+
+______________________________________________________________________________________________________________________
+
 From July, 24 to July, 27 2017
 ------------------------------
 
