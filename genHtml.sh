@@ -21,14 +21,18 @@ do
             $ROOT_CMD_PATH/genHtml.sh $ROOT_CMD_PATH
             cd ..
         else
-            #remove if file is md
+            #generate if file is md
             res=`echo $F | grep -F ".md"`
             if [ "$F" = "$res" ]
             then
                 reslen=`expr ${#res} - 3`
                 rescut=${res:0:$reslen}
-                echo "using $rescut"
-                pandoc -f markdown "$rescut.md" -t html -o "$rescut.html"
+                if [ ! -e "$rescut.updated" ] #check whether html needs update
+                then
+                    echo "Updating html with $rescut.md"
+                    pandoc -f markdown "$rescut.md" -t html -o "$rescut.html"
+                    touch "$rescut.updated"
+                fi
             fi
         fi
     fi

@@ -64,7 +64,35 @@ No     Title                                            Abstract
                                                         fact that the general shape of the attractor is reproduced by both method, there are differences
                                                         in velocity profiles near the left boundary. This fact requires further investigations since this
                                                         discrepancy may in influence nonlinear dynamics of developing instabilities.
+
+5       <a href="http://num-meth.srcc.msu.ru/zhurnal/   The MCF software package devoted to solving coupled problems of hydroelasticity is described.
+        tom_2011/v12r120.html">                         Various ways of solving the problems with strong and weak coupling are considered.
+        Application of HPC-technologies for solving     Iterative methods are chosen due to their simplicity in implementation and scaling.
+        spatial multiphysics problems (in Russian) </a> The coupling of the OpenFOAM software package (turbulent motion of incompressible,
+                                                        weakly compressible, and compressible fluids) with the two models of structural dynamics
+                                                        based on the finite-volume method (OpenFOAM) and on the modal approach (UZOR) is discussed.
+                                                        The performance analysis of the developed software using the clusters of the
+                                                        Taganrog Institute of Technology and the State University of Chelyabinsk is given. 
+
+6      <a href="http://www.ispras.ru/proceedings/       Testing of capabilities of open-source BEM++ code for simulation of acoustics problems at
+       docs/2017/29/1/isp_29_2017_1_39.pdf>             medium and high frequencies is presented. The BEM++ library is a universal tool, which allows
+       Validation of open source code BEM++             to build discrete models for boundary integral operators (single-, double- and adjoint
+       for simulation of acoustic problems              double-layer potential operators and hypersingular boundary operators) and solve
+       </a>                                             boundary element method problems for Helmholtz, Laplace and Maxwell equations using Python libraries.
+                                                        Solution for the test problem of scattering plane wave on spherical obstacle with
+                                                        using BEM++ demonstrates good convergence with the results of analytical solutions.
+                                                        The relative errors satisfy to acceptable values 5% in solving engineering tasks, this fact
+                                                        allows to use this library as an alternative to commercial software. Capability
+                                                        of BEM++ library to calculate acoustic fields for frequencies from 5 Hz to 5 kHz enables move
+                                                        to solving more difficult engineering challenges of the aerospace industry. The main restriction
+                                                        for this is a time of computation, because only shared-memory technology of the code
+                                                        parallelization is implemented. However, open architecture of the library allows to
+                                                        remove this disadvantage. Meshes for BEM++ can have big size and be based on E geometric 
+                                                        model with complex geometrical objects. Also, it should be noted, that for implementation
+                                                        to engineering practice it is desirable to integrate the library with
+                                                        existing interactive systems of pre- and post-processing, for example, with Salome.
 -------------------------------------------------------------------------------------------------------------
+
 
 
 Master and PhD Thesis

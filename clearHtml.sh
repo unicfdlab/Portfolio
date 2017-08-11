@@ -25,8 +25,11 @@ do
             res=`echo $F | grep -F ".html"`
             if [ "$F" = "$res" ]
             then
-                echo "removing $res"
-                rm -rf $res
+                reslen=`expr ${#res} - 5`
+                rescut=${res:0:$reslen}
+                echo "removing $rescut.html"
+                rm -rf "$rescut.html"
+                rm -rf "$rescut.updated"
             fi
         fi
     fi
