@@ -40,3 +40,6 @@ No     Method                                     Method summary
 Under the outlined numerical methods authors of this proposal developed and implemented new modifications of corresponding approaches, 
 which prove high computational effectiveness for specified problems. Investigations of parallelization and algorithms adaptation 
 for providing computations on the multiprocessor computers also were performed.
+
+Research is supported by the Russian Scientific Foundation (Grant No. 17-79-20445).
+
