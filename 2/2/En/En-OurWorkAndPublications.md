@@ -7,7 +7,7 @@ Our articles
 ------------------------------------------------------------------------------------------------------------
 No     Title                                            Abstract
 ------ ------------------------------------------------ ----------------------------------------------------
-1      <a href="../Materials/libAcoustics-2015.pdf">    A large number of available computational fluid dynamics codes include tools for
+1.     <a href="../Materials/libAcoustics-2015.pdf">    A large number of available computational fluid dynamics codes include tools for
        Development of a Dynamic Library for             analysis of computational aeroacoustics problems. Such tools are proprietary as well as
        computational aeroacoustics applications using   the codes themselves. Actually, the level of development of such codes as OpenFOAM
        the OpenFOAM Open Source Package                 makes it possible to implement enough opportunities for complication of physical
@@ -22,7 +22,7 @@ No     Title                                            Abstract
                                                         implementation of the analogy is capable of producing parallel computation. The
                                                         libAcoustics library is free and is available for download on demand.
 
-2      <a href="../Materials/pisoCentralFoam.pdf">
+2.     <a href="../Materials/pisoCentralFoam.pdf">
        Adaptation of Kurganov-Tadmor Numerical Scheme   In this work a hybrid scheme based on the PISO-algorithm and Kurganov-Tadmor's numerical
        For Applying in Combination With the PISO Method scheme is proposed. This scheme utilizes compressible PISO method for coupling between velocity
        in Numerical Simulation of Flows in a Wide Range and pressure and Kurganov-Tadmor scheme for formulation of non-oscillating convective fluxes.
@@ -34,7 +34,7 @@ No     Title                                            Abstract
                                                         results with the experimental and analytic data was carried out. The solver was tested in a parallel
                                                         mode on a computer cluster.
 
-3      <a href="http://www.ispras.ru/proceedings/       The hybrid method for approximation of advective terms is proposed in order to 
+3.     <a href="http://www.ispras.ru/proceedings/       The hybrid method for approximation of advective terms is proposed in order to 
        docs/2016/28/3/isp_28_2016_3_267.pdf">           resolve flows in the wide Mach numbers region. This hybrid method is based on the Kurganov-
        Study of capabilities of hybrid scheme for       Tadmor (KT) scheme and projection method PISO (Pressure Implicit with Splitting Operators). 
        advection terms approximation in mathematical    In order to study hybrid method properties a set of cases with analytical 
@@ -53,7 +53,7 @@ No     Title                                            Abstract
                                                         public access through GitHub project
                                                          <a href="https://github.com/unicfdlab">github.com/unicfdlab</a>
 
-4       <a href="http://ispras.ru/proceedings/          Direct numerical simulation of internal gravity waves focusing and developement
+4.      <a href="http://ispras.ru/proceedings/          Direct numerical simulation of internal gravity waves focusing and developement
         docs/2014/26/5/isp_26_2014_5_117.pdf">          of a wave attractor was performed with the help of two different numerical approaches.
         Direct numerical simulation of internal         Mathematical formulation corresponds to experiments on exitations of inner waves in a
         gravity wave attractor in trapezoidal domain    trapezoidal container with salt solutions through forced oscillations of the left boundary. It
@@ -65,7 +65,7 @@ No     Title                                            Abstract
                                                         in velocity profiles near the left boundary. This fact requires further investigations since this
                                                         discrepancy may in influence nonlinear dynamics of developing instabilities.
 
-5       <a href="http://num-meth.srcc.msu.ru/zhurnal/   The MCF software package devoted to solving coupled problems of hydroelasticity is described.
+5.      <a href="http://num-meth.srcc.msu.ru/zhurnal/   The MCF software package devoted to solving coupled problems of hydroelasticity is described.
         tom_2011/v12r120.html">                         Various ways of solving the problems with strong and weak coupling are considered.
         Application of HPC-technologies for solving     Iterative methods are chosen due to their simplicity in implementation and scaling.
         spatial multiphysics problems (in Russian)      The coupling of the OpenFOAM software package (turbulent motion of incompressible,
@@ -74,7 +74,7 @@ No     Title                                            Abstract
                                                         The performance analysis of the developed software using the clusters of the
                                                         Taganrog Institute of Technology and the State University of Chelyabinsk is given. 
 
-6      <a href="http://www.ispras.ru/proceedings/       Testing of capabilities of open-source BEM++ code for simulation of acoustics problems at
+6.     <a href="http://www.ispras.ru/proceedings/       Testing of capabilities of open-source BEM++ code for simulation of acoustics problems at
        docs/2017/29/1/isp_29_2017_1_39.pdf">            medium and high frequencies is presented. The BEM++ library is a universal tool, which allows
        Validation of open source code BEM++             to build discrete models for boundary integral operators (single-, double- and adjoint
        for simulation of acoustic problems              double-layer potential operators and hypersingular boundary operators) and solve
@@ -104,18 +104,14 @@ No     Title                                            Abstract
                                                         representation of the possible triangles method is shown. It is suitable to use generalization of
                                                         Delaunay triangulation in order to construct meshes with polygonal cells in case of multiple nodes
                                                         close to be lying on the same circle.
+
+8.     <a href="../Materials/10988.pdf">                The  paper  is  devoted  to  modelling  and  analysis  of  unsteady  turbulent  flow  in  a 
+       Implementation of POD and DMD methods in Apache  model  combustor  (channel)  using  LES  (Large  Eddy  Simulation).  Simulations  were  provided 
+       Spark framework for simulation of unsteady       for 2D and 3D cases on different grids of a flow in a channel with rearward facing step. The 
+       turbulent flow in the model combustor            calculation of a flow in a channel was performed on high performance cluster, using the new 
+       </a>                                             approach  in  Apache  Spark  framework  and  POD,  DMD  data  processing  algorithms.  First 
+                                                        4 dynamic modes were defined.  
 -------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
 
 
 
