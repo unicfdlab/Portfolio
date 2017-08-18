@@ -39,8 +39,8 @@ No     Title                                            Abstract
        Study of capabilities of hybrid scheme for       Tadmor (KT) scheme and projection method PISO (Pressure Implicit with Splitting Operators). 
        advection terms approximation in mathematical    In order to study hybrid method properties a set of cases with analytical 
        models of compressible flows                     solution or experimental data for different classes of flows was considered: 
-       </a>                                             a) compressible flows - propagation of the wave in straight  channel  
-                                                        (Sod's  Problem),  supersonic  flow  over  flat  wedge,  supersonic  flow  over 
+       (in Russian)                                     a) compressible flows - propagation of the wave in straight  channel  
+       </a>                                             (Sod's  Problem),  supersonic  flow  over  flat  wedge,  supersonic  flow  over 
                                                         backward  step,  flow  over  forward  step  with  supersonic  velocities,  
                                                         flow  in  supersonic converging-diverging nozzle with shock wave; 
                                                         b) incompressible flows - subsonic flow of laminar viscous fluid in the channel 
@@ -57,9 +57,9 @@ No     Title                                            Abstract
         docs/2014/26/5/isp_26_2014_5_117.pdf">          of a wave attractor was performed with the help of two different numerical approaches.
         Direct numerical simulation of internal         Mathematical formulation corresponds to experiments on exitations of inner waves in a
         gravity wave attractor in trapezoidal domain    trapezoidal container with salt solutions through forced oscillations of the left boundary. It
-        with oscillating vertical wall</a>              was shown that numerical simulations reproduce the experiments after taking into account
-                                                        ther imperfection of linear salinity profile near the upper boundary. The amplitudes of
-                                                        resulting oscillations in both numerical simulations are increased as compared to the
+        with oscillating vertical wall                  was shown that numerical simulations reproduce the experiments after taking into account
+        (in Russian)                                    ther imperfection of linear salinity profile near the upper boundary. The amplitudes of
+        </a>                                            resulting oscillations in both numerical simulations are increased as compared to the
                                                         experiments due to loss of energy of the 3D wave generator in the experiments. Despite the
                                                         fact that the general shape of the attractor is reproduced by both method, there are differences
                                                         in velocity profiles near the left boundary. This fact requires further investigations since this
@@ -68,18 +68,18 @@ No     Title                                            Abstract
 5       <a href="http://num-meth.srcc.msu.ru/zhurnal/   The MCF software package devoted to solving coupled problems of hydroelasticity is described.
         tom_2011/v12r120.html">                         Various ways of solving the problems with strong and weak coupling are considered.
         Application of HPC-technologies for solving     Iterative methods are chosen due to their simplicity in implementation and scaling.
-        spatial multiphysics problems (in Russian) </a> The coupling of the OpenFOAM software package (turbulent motion of incompressible,
-                                                        weakly compressible, and compressible fluids) with the two models of structural dynamics
+        spatial multiphysics problems (in Russian)      The coupling of the OpenFOAM software package (turbulent motion of incompressible,
+        </a>                                            weakly compressible, and compressible fluids) with the two models of structural dynamics
                                                         based on the finite-volume method (OpenFOAM) and on the modal approach (UZOR) is discussed.
                                                         The performance analysis of the developed software using the clusters of the
                                                         Taganrog Institute of Technology and the State University of Chelyabinsk is given. 
 
 6      <a href="http://www.ispras.ru/proceedings/       Testing of capabilities of open-source BEM++ code for simulation of acoustics problems at
-       docs/2017/29/1/isp_29_2017_1_39.pdf>             medium and high frequencies is presented. The BEM++ library is a universal tool, which allows
+       docs/2017/29/1/isp_29_2017_1_39.pdf">            medium and high frequencies is presented. The BEM++ library is a universal tool, which allows
        Validation of open source code BEM++             to build discrete models for boundary integral operators (single-, double- and adjoint
        for simulation of acoustic problems              double-layer potential operators and hypersingular boundary operators) and solve
-       </a>                                             boundary element method problems for Helmholtz, Laplace and Maxwell equations using Python libraries.
-                                                        Solution for the test problem of scattering plane wave on spherical obstacle with
+       (in Russian)                                     boundary element method problems for Helmholtz, Laplace and Maxwell equations using Python libraries.
+       </a>                                             Solution for the test problem of scattering plane wave on spherical obstacle with
                                                         using BEM++ demonstrates good convergence with the results of analytical solutions.
                                                         The relative errors satisfy to acceptable values 5% in solving engineering tasks, this fact
                                                         allows to use this library as an alternative to commercial software. Capability
@@ -91,7 +91,32 @@ No     Title                                            Abstract
                                                         model with complex geometrical objects. Also, it should be noted, that for implementation
                                                         to engineering practice it is desirable to integrate the library with
                                                         existing interactive systems of pre- and post-processing, for example, with Salome.
+
+7.     <a href="http://technomag.bmstu.ru/doc/          The aim of the present research is to develop software for the Particle Finite Element Method
+       779350.html">                                    (PFEM) and its verification on the model problem of viscous incompressible flow simulation in a
+       On using particle finite element for             square cavity. The Lagrangian description of the medium motion is used: the nodes of the finite
+       hydrodynamics problems solving (in Russian)      element mesh move together with the fluid that allows to consider them as particles of the medium.
+       </a>                                             Mesh cells deform when in time-stepping procedure, so it is necessary to reconstruct the mesh to
+                                                        provide stability of the finite element numerical procedure.
+                                                        Meshing algorithm allows us to obtain the mesh, which satisfies the Delaunay criteria: it
+                                                        is called \the possible triangles method". This algorithm is based on the well-known Fortune
+                                                        method of Voronoi diagram constructing for a certain set of points in the plane. The graphical
+                                                        representation of the possible triangles method is shown. It is suitable to use generalization of
+                                                        Delaunay triangulation in order to construct meshes with polygonal cells in case of multiple nodes
+                                                        close to be lying on the same circle.
 -------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
