@@ -30,7 +30,7 @@ do
                 if [ ! -e "$rescut.updated" ] #check whether html needs update
                 then
                     echo "Updating html with $rescut.md"
-                    pandoc -f markdown "$rescut.md" -t html -o "$rescut.html"
+                    pandoc --mathml -s -f markdown "$rescut.md" -t html -o "$rescut.html"
                     touch "$rescut.updated"
                 fi
             fi
