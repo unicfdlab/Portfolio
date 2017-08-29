@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script type="text/javascript">/*<![CDATA[*/
+  /* 
+  March 19, 2004 MathHTML (c) Peter Jipsen http://www.chapman.edu/~jipsen
+  Released under the GNU General Public License version 2 or later.
+  See the GNU General Public License (at http://www.gnu.org/copyleft/gpl.html)
+  for more details.
+  */
+  
+  function convertMath(node) {// for Gecko
+    if (node.nodeType==1) {
+      var newnode = 
+        document.createElementNS("http://www.w3.org/1998/Math/MathML",
+          node.nodeName.toLowerCase());
+      for(var i=0; i < node.attributes.length; i++)
+        newnode.setAttribute(node.attributes[i].nodeName,
+          node.attributes[i].nodeValue);
+      for (var i=0; i<node.childNodes.length; i++) {
+        var st = node.childNodes[i].nodeValue;
+        if (st==null || st.slice(0,1)!=" " && st.slice(0,1)!="\n") 
+          newnode.appendChild(convertMath(node.childNodes[i]));
+      }
+      return newnode;
+    }
+    else return node;
+  }
+  
+  function convert() {
+    var mmlnode = document.getElementsByTagName("math");
+    var st,str,node,newnode;
+    for (var i=0; i<mmlnode.length; i++)
+      if (document.createElementNS!=null)
+        mmlnode[i].parentNode.replaceChild(convertMath(mmlnode[i]),mmlnode[i]);
+      else { // convert for IE
+        str = "";
+        node = mmlnode[i];
+        while (node.nodeName!="/MATH") {
+          st = node.nodeName.toLowerCase();
+          if (st=="#text") str += node.nodeValue;
+          else {
+            str += (st.slice(0,1)=="/" ? "</m:"+st.slice(1) : "<m:"+st);
+            if (st.slice(0,1)!="/") 
+               for(var j=0; j < node.attributes.length; j++)
+                 if (node.attributes[j].nodeValue!="italic" &&
+                   node.attributes[j].nodeValue!="" &&
+                   node.attributes[j].nodeValue!="inherit" &&
+                   node.attributes[j].nodeValue!=undefined)
+                   str += " "+node.attributes[j].nodeName+"="+
+                       "\""+node.attributes[j].nodeValue+"\"";
+            str += ">";
+          }
+          node = node.nextSibling;
+          node.parentNode.removeChild(node.previousSibling);
+        }
+        str += "</m:math>";
+        newnode = document.createElement("span");
+        node.parentNode.replaceChild(newnode,node);
+        newnode.innerHTML = str;
+      }
+  }
+  
+  if (document.createElementNS==null) {
+    document.write("<object id=\"mathplayer\"\
+    classid=\"clsid:32F66A20-7614-11D4-BD11-00104BD3F987\"></object>");
+    document.write("<?import namespace=\"m\" implementation=\"#mathplayer\"?>");
+  }
+  if(typeof window.addEventListener != 'undefined'){
+    window.addEventListener('load', convert, false);
+  }
+  if(typeof window.attachEvent != 'undefined') {
+    window.attachEvent('onload', convert);
+  }
+  /*]]>*/
+  </script>
+</head>
+<body>
+<h1 id="the-numerical-model-of-liquid-ring-vacuum-pump">The Numerical Model of Liquid Ring Vacuum Pump</h1>
+<p>Mathematical modeling of compressible homogeneous two-phase flows is one of the most actual problems. Such models can be useful for the preestimation of integral characteristics of devices where fluid flows with large difference of densities (e.g. water and air) are mixed. Also compressible models allows to estimate pressure fluctuations and, therefore, to predict acoustic loads.</p>
+<p><a href="../../3/En/001-Ru-hybridCentralSolvers.html">The hybrid method of modelling of compressible flows</a> was adapted for simulation of two-phase compressible flows of homogeneous fluid mixtures with one-velocity approximation. Mathematical model consists of the mass, momentum, energy equations and the additional transport equation for the mass fraction <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>Y</mi><mrow><mi>L</mi><mi>i</mi><mi>q</mi></mrow></msub></mrow></math> of liquid phase:</p>
+
+<p>The density <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>ρ</mi></mrow></math> of a mixture is defined as:</p>
+
+<p>where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>ρ</mi><mrow><mi>L</mi><mi>i</mi><mi>q</mi></mrow></msub></mrow></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>ρ</mi><mrow><mi>G</mi><mi>a</mi><mi>s</mi></mrow></msub></mrow></math> are the densities of mixture components, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>Y</mi><mrow><mi>L</mi><mi>i</mi><mi>q</mi></mrow></msub></mrow></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>Y</mi><mrow><mi>G</mi><mi>a</mi><mi>s</mi></mrow></msub></mrow></math> are mass fractions of components. Indices &quot;Liq&quot; and &quot;Gas&quot; marks the liquid and gas components of the two-phase mixture respectively.</p>
+<p>An isentropic speed of sound in the considered mixture is calculated as:</p>
+
+<p>Then the equation of state for the homogeneous liquid-gas mixture is the non-monotonic dependency on the gas volume fraction (see fig. below). For example, in the homogeneous vapor-water mixture the sound speed is changed from the know values of sound speed for each pure component (350 m/s for vapor, 1500 m/s for water) to small values of order 20 m/s (in case of equal values of volume fractions) in standard conditions.</p>
+<p><img src="../Materials/twoPhaseSonicSpeed_en.png" title="titleee" alt="this is caption" /> <em>The sound speed in the &quot;vapor-water&quot; mixture in dependency of the gas volume fraction</em></p>
+<p>One application of considered model is the modeling of liquid ring pumps which can be used, for example, in the power engineering. Usually incompressible models or equations of state (e.g. polytropic EoS) are used for simulations of processes in such devices. However the correct calculations of the speed of sound can be important, for example, in problems of noise prediction.</p>
+<p>The main principle of the water ring pump operation is based on the balance of mass and momentum. The rotor (1) is slightly offset from the center of cylindrical stator (3). When the rotor moves the liquid ring formed by a centrifugal force (see fig. below). Liquid moves away from the rotor hub to create a suction effect, and the cells of gas are created between the rotor blades. As the cell passes the bottom of the chamber, the liquid begins pressing in towards the rotor hub. This causes the air to be forced out of the cell, filling it with liquid ready for the next suction cycle.</p>
+<p><img src="../Materials/LRVP_Draft.png" />{width=35%}</p>
+<p><em>Scheme of the water ring pump: blue region — water ring, white region — air cells between rotor blades, green dots — fluid inflow, red dots — fluid outflow</em></p>
+<p>The pump construction by Dr. Jörn Beilke was chosen as a test case. The sliding interfaces technology was used. The data interpolation between rotating and static parts of meshes was implemented using the interpolating surfaces. It is necessary to make a gap between corresponding parts, the thickness of gap can be defined in the documentation or can be chosen sufficiently thick to decrease computational time (the gap is thinner the computational time is more).</p>
+<p>At the initial time point the liquid distribution in the flow domain corresponds to its position in the real pump when the pump works in the nominal power. The angular velocity of the rotor shaft changes from 0 to 200 rad/s as step function and the pressure in the suction decreases from 100 kPa to 60 kPa.</p>
+<p>The results of computations (distribution of pressure, velocity, mass and volume fractions in the pump) are presented in the figure below. The obtained pump capacity is equal to 5 m<sup>3</sup>/h when the angular velocity of rotor shaft is 200 rad/s and the pressure differential is 40 kPa. Experimental estimation of the pump capacity is 16 m<sup>3</sup>/h for shaft angular velocity 298 rad/h and the pressure differential 40 kPa. Therefore, the qualitatively correct simulation of effects in the pump are obtained because:</p>
+<ul>
+<li>the pump capacity should decrease at least a third when the angular velocity is decreased from 298 rad/s to 200 rad/s and the pressure ratio stays the same;</li>
+<li>the gap between rotor and inflow/outflow nozzles in the real construction is significantly less than the gap in the numerical model which can be the reason of some numerical leaks.</li>
+</ul>
+<p>Also the qualitative analysis of the simulated flow shows the transonic zones in regions where the volume fraction of air is 50%.</p>
+<p><img src="../Materials/LRVP_Visu01.png" />{width=25%}</p>
+<p><img src="../Materials/LRVP_Visu02.png" />{width=25%}</p>
+<p><em>The flow in the water ring vacuum pump, from left to right: static pressure field, mass fraction of liquid, effective Mach number, velocity magnitude field</em></p>
+<p>Therefore, effects typical for transonic and supersonic flows can be modeled for fluids with sufficiently small velocities using the mathematical model of compressible homogeneous two-phase fluid with non-monotonic equation of state.</p>
+<h2 id="visualisation-of-flow-inside-the-water-ring-vacuum-pump">Visualisation of flow inside the water ring vacuum pump</h2>
+<iframe width="640" height="480"
+src="https://www.youtube.com/embed/xCAaAHuSxSE">
+</iframe>
+</body>
+</html>
