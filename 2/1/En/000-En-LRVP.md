@@ -42,7 +42,7 @@ c
 
 Then the equation of state for the homogeneous liquid-gas mixture is the non-monotonic dependency on the gas volume fraction (see fig. below). For example, in the homogeneous vapor-water mixture the sound speed is changed from the know values of sound speed for each pure component (350 m/s for vapor, 1500 m/s for water) to small values of order 20 m/s (in case of equal values of volume fractions) in standard conditions.
 
-![this is caption](../Materials/twoPhaseSonicSpeed_en.png "titleee") 
+![](../Materials/twoPhaseSonicSpeed_en.png "") 
 *The sound speed in the "vapor-water" mixture in dependency of the gas volume fraction*
 
 One application of considered model is the modeling of liquid ring pumps which can be used, for example, in the power engineering. Usually incompressible models or equations of state (e.g. polytropic EoS) are used for simulations of processes in such devices. However the correct calculations of the speed of sound can be important, for example, in problems of noise prediction.
