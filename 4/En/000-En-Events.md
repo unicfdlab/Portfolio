@@ -23,6 +23,18 @@ the study of distribution patterns of the falling drop matter over the surface o
 cavity in the target-liquid in the case of miscible and immiscible liquids, and also the determination 
 of short capillary waves parameters at various stages of the process.
 
+*Video, part 1 (in Russian)*
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/yXL6UIEsCfs">
+</iframe>
+
+*Video, part 2 (in Russian)*
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/E6B9cZkyMe0">
+</iframe>
+
 ______________________________________________________________________________________________________________________
 
 From July, 24 to July, 27 2017
