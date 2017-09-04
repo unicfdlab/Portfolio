@@ -2,7 +2,7 @@ UniCFD laboratory
 =================
 
 The UniCFD Web-laboratory was created on the base of 
-ISP RAS institute <www.ispras.ru> in 2011 as the continuation
+[ISP RAS institute](www.ispras.ru) in 2011 as the continuation
 of the UniHUB technological platform and is aimed at 
 supporting open community of researchers, whose 
 scientific interests refer to methods of solving 
@@ -16,18 +16,17 @@ Main areas of our activity within the laboratory are:
 + mesh generation;
 + visualization;
 + fundamental researches;
-+ education, consulting.
++ education and consultations.
 
 Examples of open-source software developed by our group can be found 
 at <https://github.com/unicfdlab>. We are updating repositories with
 latest changes permanently.
 
 Videos with results of our simulations, training materials and seminars
-can be found in the youtube channel for UNICFD LAB <https://www.youtube.com/channel/UCT0E3IuqMPudgP7Qpe13Eig>
+can be found in the YouTube [UNICFD LAB](https://www.youtube.com/channel/UCT0E3IuqMPudgP7Qpe13Eig) channel.
 
-In the December of each year we are organizing conference dedicated to
-open source software for solving coninuous media problems
-<http://www.isprasopen.ru/en/conf/cfd.html>
+In the December of each year we are organizing [conference](http://www.isprasopen.ru/en/conf/cfd.html) dedicated to
+open source software for solving continuous media problems.
 
 We are open for both commercial and non-profit cooperation.
 
