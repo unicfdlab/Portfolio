@@ -22,12 +22,12 @@ do
             cd ..
         else
             #remove if file is html
-            res=`echo $F | grep -F ".html"`
+            res=`echo $F | grep -F ".updated"`
             if [ "$F" = "$res" ]
             then
-                reslen=`expr ${#res} - 5`
+                reslen=`expr ${#res} - 8`
                 rescut=${res:0:$reslen}
-                echo "removing $rescut.html"
+                echo "removing $rescut.html and $rescut.updated"
                 rm -rf "$rescut.html"
                 rm -rf "$rescut.updated"
             fi
