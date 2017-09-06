@@ -5,11 +5,17 @@ Numerical simulation of gas dynamics and acoustics of rocket lift-off
 It is known that high-intensity level acoustic loads induced during heavy lift launch vehicles lift-off 
 can damage the vehicle heavy lift launch vehicles lift-off payloads. This problem makes the noise level reduction
 during the lift-off highly relevant. It leads to the necessity of the accurate prediction of acoustic loads. This goal
-can be achieved by using both experimental and numerical methods. Experimental investigation is very expensive,
+can be achieved by using both experimental and numerical methods. Due to complexity of construction of the launch system 
+(see example in the fig. below) experimental investigation is very expensive,
 making it acceptable mainly for small-scale models, whereas the accuracy of numerical simulation is limited by plenty of
 factors, e.g. approximation order, computational costs, etc. So small-scale experiments can be used for the verification
 of numerical models, and numerical simulations should be applied for small-scale experiments scaling on real-size
 equipment.
+
+
+![](../Materials/liftoff/souz-en.jpg){width=30%}
+
+*Scheme of the launch pad for the vehicle "Soyuz"*
 
 
 High-power acoustic waves are emitted by supersonic turbulent jets going out from the vehicle nozzles. State-of-the-art
@@ -29,6 +35,8 @@ cost.
 
 
 ![](../Materials/liftoff/schemeRocket-en.png){width=20%}
+
+*Scheme of a hybrid technology of noise prediction*
 
 
 It is necessary to сhoose the optimal mesh resolution for correct simulation both supersonic plumes and acoustic waves. We can estimate it with analysis of numerical solution of test cases which has an analytical solution or cases with high-quality experimental data.
