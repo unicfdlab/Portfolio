@@ -5,7 +5,7 @@ A set of programs for the simulation of compressible flows in wide Mach number r
 
 Developed set of programs is using hybrid method of approximation for convection terms,
 which combines Kurganov-Tadmor scheme for compressible flows and operator splitting
-technique - PIMPLE (PISO/SIMPLE).
+technique PIMPLE (PISO/SIMPLE).
 
 Main particularity of this method consist in usage of Kurganov-Tadmore scheme for 
 convective fluxes, adapted for implicit approximation and in the introduction of
@@ -21,6 +21,7 @@ solution.
 can be applied for the simulation of medium of three different kinds - 
 compressible gas, mixture of compressible gases and homogeneous two phase mixture.
 
+The code was implemented using open-source software OpenFOAM. 
 This method was tested for wide range of problems, like one- and two- dimensional
 flows of perfect inviscid gas, simulation of transonic centrifugal compressors,
 simulation of liquid ring vacuum pumps, plasma gas dynamics, supersonic jets
