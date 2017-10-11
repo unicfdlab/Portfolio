@@ -4,7 +4,7 @@ The Numerical Model of Liquid Ring Vacuum Pump
 
 Mathematical modeling of compressible homogeneous two-phase flows is one of the most actual problems. Such models can be useful for the preestimation of integral characteristics of devices where fluid flows with large difference of densities (e.g. water and air) are mixed. Also compressible models allows to estimate pressure fluctuations and, therefore, to predict acoustic loads.  
 
-[The hybrid method of modelling of compressible flows](../../3/En/001-Ru-hybridCentralSolvers.html) was adapted for simulation of two-phase compressible flows of homogeneous fluid mixtures with one-velocity approximation. Mathematical model consists of the mass, momentum, energy equations and the additional transport equation for the mass fraction $Y_{Liq}$ of liquid phase:
+[The hybrid method of modelling of compressible flows](../../3/En/001-Ru-hybridCentralSolvers.html) (implemented using OpenFOAM) was adapted for simulation of two-phase compressible flows of homogeneous fluid mixtures with one-velocity approximation. Mathematical model consists of the mass, momentum, energy equations and the additional transport equation for the mass fraction $Y_{Liq}$ of liquid phase:
 
 
 \begin{equation*}

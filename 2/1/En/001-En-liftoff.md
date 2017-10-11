@@ -41,7 +41,7 @@ cost.
 
 It is necessary to сhoose the optimal mesh resolution for correct simulation both supersonic plumes and acoustic waves. We can estimate it with analysis of numerical solution of test cases which has an analytical solution or cases with high-quality experimental data.
 
-[The hybrid method of modelling of compressible flows in the wide range of Mach number](../../3/En/001-Ru-hybridCentralSolvers.html) was the main tool for the modelling in the near field. Some [test cases](https://ntrs.nasa.gov/search.jsp?R=19820025274) both for overexpanded and underexpanded jets were chosen for preliminary estimation of the mesh size. 
+[The hybrid method of modelling of compressible flows in the wide range of Mach number](../../3/En/001-Ru-hybridCentralSolvers.html) (implemented using OpenFOAM open-source code) was the main tool for the modelling in the near field. Some [test cases](https://ntrs.nasa.gov/search.jsp?R=19820025274) both for overexpanded and underexpanded jets were chosen for preliminary estimation of the mesh size. 
 
 
 ![](../Materials/liftoff/meshConv-b1p1.png){width=20%}
