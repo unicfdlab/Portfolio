@@ -7,6 +7,18 @@
 
 **2017**
 
+<a href="http://iopscience.iop.org/article/10.1088/1742-6596/918/1/012037"> Simulation of droplet impact onto a deep pool for large Froude numbers in different open-source codes (in English) </a>
+
+*В.Н. Корчагова, М.В. Крапошин, И.К. Марчевский, Е.В. Смирнова*
+
+A droplet impact on a deep pool can induce macro-scale or micro-scale effects like a crown splash, a high-speed jet, formation of secondary droplets or thin liquid films, etc. It depends on the diameter and velocity of the droplet, liquid properties, effects of external forces and other factors that a ratio of dimensionless criteria can account for. In the present research, we considered the droplet and the pool consist of the same viscous incompressible liquid. We took surface tension into account but neglected gravity forces. We used two open-source codes (OpenFOAM and Gerris) for our computations. We review the possibility of using these codes for simulation of processes in free-surface flows that may take place after a droplet impact on the pool. Both codes simulated several modes of droplet impact. We estimated the effect of liquid properties with respect to the Reynolds number and Weber number. Numerical simulation enabled us to find boundaries between different modes of droplet impact on a deep pool and to plot corresponding mode maps. The ratio of liquid density to that of the surrounding gas induces several changes in mode maps. Increasing this density ratio suppresses the crown splash.
+
+<a href="http://iopscience.iop.org/article/10.1088/1742-6596/918/1/012013"> Exact analytical formulae for linearly distributed vortex and source sheets in uence computation in 2D vortex methods (in English) </a>
+
+*К.С. Кузьмина, И.К. Марчевский, Е.П. Рятина*
+
+We describe two different approaches to deriving integral equation for unknown vortex sheet intensity. We simulate the velocity of the surface line of an airfoil as the influence of attached vortex and source sheets. We consider a polygonal approximation of the airfoil and assume intensity distributions of free and attached vortex sheets and attached source sheet to be approximated with piecewise constant or piecewise linear (continuous or discontinuous) functions. We describe several specific numerical schemes that provide different accuracy and have a different computational cost. The study shows that a Galerkin-type approach to solving boundary integral equation requires computing several integrals and double integrals over the panels. We obtain exact analytical formulae for all the necessary integrals, which makes it possible to raise significantly the accuracy of vortex sheet intensity computation and improve the quality of velocity and vorticity field representation, especially in proximity to the surface line of the airfoil. All the formulae are written down in the invariant form and depend only on the geometric relationship between the positions of the beginnings and ends of the panels.
+
 <a href="http://www.ispras.ru/proceedings/docs/2017/29/1/isp_29_2017_1_39.pdf"> Тестирование возможностей открытого кода BEM++ по решению задач акустики </a>
 
 *П.С. Лукашин, С.В. Стрижак, Г.А. Щеглов*
