@@ -31,4 +31,15 @@
 </div>
 </a>
 
+<a href="http://falt.ru/">
+<div style="width:375px">
+<center>
+Факультет аэромеханики и летательной техники
+
+Московского Физико-Технического Института
+
+<img src="../Fig/gJ4228GYPqg.jpg" style="width:100%" />
+</center>
+</div>
+</a>
 

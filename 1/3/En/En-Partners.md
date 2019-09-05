@@ -31,3 +31,16 @@ Applied mathematics department
 </div>
 </a>
 
+<a href="https://mipt.ru/english/edu/departments/dafe">
+<div style="width:375px">
+<center>
+Department of Aeromechanics and Flight Engineering 
+
+of the
+
+Moscow Institute of Physics and Technology
+
+<img src="../Fig/gJ4228GYPqg.jpg" style="width:100%" />
+</center>
+</div>
+</a>
