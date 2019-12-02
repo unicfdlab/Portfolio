@@ -1,11 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>000-Ru-howToSolveSimpleFsiWithFunctionObject</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <h2 id="реализация-простой-модели-гидроупругости-с-помощью-functionobject">Реализация простой модели гидроупругости с помощью functionObject</h2>
@@ -25,7 +34,7 @@
 <div style="width:500px">
 <p><img src="../Fig/howToSolveSimpleFsiWithFunctionObject/SCHEMA.png" style="width:100%" /></p>
 </div>
-<p>На основе данного примера рассматриваются различные подходы к решению данной задачи. Обсуждается разница между пользовательским приложением-решателем, и определяемыми пользователем процедурой (functionObject), и источником (fvOption) и реализующими их классами. Обосновывается выбор стандартного приложения OpenFOAM - pimpleDyMFoam, связываемого с пользовательской процедурой, реализуемой в классе-наследнике functionObject. Описываются основные этапы разработки определяемого пользователем класса functionObject: настройка проекта динамически загружаемой библиотеки, создание класса-наследника использующего стандартную библиотеку OpenFOAM для вычисления силовых нагрузок на тело - &quot;forces&quot;, вопросы работы с подвижными сетками, преобразование систем координат, реализация процедуры запуска с записанного состояния по времени и т.п. В процессе выполнения работы слушатели смогут скомпилировать созданный новый класс и запустить задачу на решение с использованием разработанной библиотеки.</p>
+<p>На основе данного примера рассматриваются различные подходы к решению данной задачи. Обсуждается разница между пользовательским приложением-решателем, и определяемыми пользователем процедурой (functionObject), и источником (fvOption) и реализующими их классами. Обосновывается выбор стандартного приложения OpenFOAM - pimpleDyMFoam, связываемого с пользовательской процедурой, реализуемой в классе-наследнике functionObject. Описываются основные этапы разработки определяемого пользователем класса functionObject: настройка проекта динамически загружаемой библиотеки, создание класса-наследника использующего стандартную библиотеку OpenFOAM для вычисления силовых нагрузок на тело - “forces”, вопросы работы с подвижными сетками, преобразование систем координат, реализация процедуры запуска с записанного состояния по времени и т.п. В процессе выполнения работы слушатели смогут скомпилировать созданный новый класс и запустить задачу на решение с использованием разработанной библиотеки.</p>
 <p>В результате моделирования будут получены поля гидродинамических величин - скорости и давления для ламинарного и турбулентного случаев, а также положение границы цилиндра - см. анимацию ниже.</p>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/s3IM-g6tPK8">
 </iframe>

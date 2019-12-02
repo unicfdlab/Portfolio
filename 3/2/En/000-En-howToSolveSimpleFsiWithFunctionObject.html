@@ -1,11 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>000-En-howToSolveSimpleFsiWithFunctionObject</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
 </head>
 <body>
 <h2 id="implementation-of-simple-fsi-model-with-functionobject">Implementation of simple FSI model with functionObject</h2>
@@ -21,12 +30,12 @@
 <p><strong>Development team website:</strong> <a href="http://unicfd.ru" class="uri">http://unicfd.ru</a></p>
 <p><strong>Presentation language:</strong> English</p>
 <p><strong>Description:</strong></p>
-<p>The training session begins with short introduction to fluid-structure interaction (FSI) problems, overview and classification of cases which arises in real world. One of the most simple and common cases of FSI is the weakly coupled motion with 1-2 degrees of freedom of solid body in fluid flow. This one has been selected for demonstration of OpenFOAM's capability to create complex numerical FSI models. In this course the particular real-world example is considered – flow-induced vibration of cylinder, connected to one or two linear viscous-elastic springs, see next figure. Mathematical model is formulated for this case.</p>
+<p>The training session begins with short introduction to fluid-structure interaction (FSI) problems, overview and classification of cases which arises in real world. One of the most simple and common cases of FSI is the weakly coupled motion with 1-2 degrees of freedom of solid body in fluid flow. This one has been selected for demonstration of OpenFOAM’s capability to create complex numerical FSI models. In this course the particular real-world example is considered – flow-induced vibration of cylinder, connected to one or two linear viscous-elastic springs, see next figure. Mathematical model is formulated for this case.</p>
 <div style="width:500px">
 <p><img src="../Fig/howToSolveSimpleFsiWithFunctionObject/SCHEMA.png" style="width:100%" /></p>
 </div>
 <p>With respect to this example, different approaches for solution of this problem are discussed. Difference between the custom solver, functionObject and fvOption classes is presented in discussion. The choice of standard OpenFOAM solver pimpleDyMFoam coupled with functionObject for the solution of the current case is argued. The development procedure steps of user-defined functionObject is presented: setup of the custom dynamic library, creation of class which inherits the standard OpenFOAM library “forces”, mesh motion issues, coordinate system transformation, restarts implementation from stored time points , etc. During the track we will compile our FSI class and will run simulation with the new library.</p>
-<p>After running simulation, we will obtain evolution of hydrodynamic fields (velocity and pressure) and position of cylinder's boundary - see animation.</p>
+<p>After running simulation, we will obtain evolution of hydrodynamic fields (velocity and pressure) and position of cylinder’s boundary - see animation.</p>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/s3IM-g6tPK8">
 </iframe>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/tosM8sNfkho">
