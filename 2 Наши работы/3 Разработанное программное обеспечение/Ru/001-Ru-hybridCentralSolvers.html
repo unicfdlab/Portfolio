@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>001-Ru-hybridCentralSolvers</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="hybridcentralsolvers">hybridCentralSolvers</h1>
+<p>Программный комплекс моделирования сжимаемых течений в широком диапазоне чисел Маха</p>
+<p>В основе разработанного программного комплекса лежит гибридный метод аппроксимации конвективных слагаемых, основанный на методе Курганова-Тадмора и разновидности метода расщепления PIMPLE (PISO/SIMPLE). Особенность данного метода состоит в неявном выражении конвективных потоков из схемы Курганова-Тадмора и введении функции-переключателя, обеспечивающей в зависимости от локальных характеристик потока переход от «сжимаемой» схемы (Курганова-Тадмора) к «несжимаемой» (PISO). Гибридный метод обладает следующими преимуществами.</p>
+<ol type="1">
+<li>Шаг по времени ограничивается только потоковым числом Куранта.</li>
+<li>Использование схемы годуновского типа позволяет получить неосциллирующее решение.</li>
+<li>Универсальность метода позволяет применять его для моделирования течений сред трех типов - сжимаемого газа, смеси газов и сжимаемой двухфазной смеси.</li>
+</ol>
+<p>Программный комплекс был реализован на основе программного омплекса с открытым исходным кодом OpenFOAM. Метод был протестирован для решения широкого круга задач - одномерные и двумерные течения совершенного идеального газа, моделирование трансзвуковых центробежных компрессоров, моделирование водокольцевых насосов, численное моделирование плазмы, газодинамика сверхзвуковых струй, явления ветрового резонанса.</p>
+<h2 id="модель-центробежного-компрессора">Модель центробежного компрессора</h2>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/Egf8vtIGJL8">
+</iframe>
+<h2 id="газодинамика-сверхзвуковых-струй">Газодинамика сверхзвуковых струй</h2>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/QgtsqaMp6dw">
+</iframe>
+<h2 id="моделирование-ветрового-резонанса">Моделирование ветрового резонанса</h2>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/tosM8sNfkho">
+</iframe>
+<p><strong>Исходный код:</strong></p>
+<p><a href="https://github.com/unicfdlab/hybridCentralSolvers" class="uri">https://github.com/unicfdlab/hybridCentralSolvers</a></p>
+<p><strong>Язык программирования</strong></p>
+<p>C++</p>
+</body>
+</html>
