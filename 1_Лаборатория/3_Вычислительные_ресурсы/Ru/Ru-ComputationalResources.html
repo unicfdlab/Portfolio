@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="вычислительные-ресурсы">Вычислительные ресурсы</h1>
+<p>Блейд-сервера</p>
+<pre><code>22 блейд-сервера ProLiant BL2x220c G7, каждый из которых содержит:
+    Два 6-ядерных процессора Intel(R) Xeon(R) CPU X5670 с тактовой частотой 2.93 GHz.
+    24 ГБ ОЗУ.
+    InfiniBand: Mellanox Technologies MT26438.
+10 блейд-серверов ProLiant BL460c G7, каждый из которых содержит:
+    Два 6-ядерных процессора Intel(R) Xeon(R) CPU E5645 с тактовой частотой 2.40 GHz.
+    48 ГБ ОЗУ.
+    InfiniBand: QLogic Corp. IBA7322 QDR InfiniBand HCA.
+64 блейд-сервера ProLiant BL2x220c G5, каждый из которых содержит:
+    Два 4-ядерных процессора Intel(R) Xeon(R) CPU E5450 с тактовой частотой 3.00 GHz.
+    8 ГБ ОЗУ.
+    InfiniBand: Mellanox Technologies MT25204.</code></pre>
+<p>Сервера с GPU</p>
+<pre><code>Сервер ProLiant SL390s G7:
+    Два 6-ядерных процессора Intel(R) Xeon(R) CPU X5650 с тактовой частотой 2.67 GHz.
+    24 ГБ ОЗУ.
+    NVIDIA Corporation GF100GL Tesla M2050.
+Сервер ProLiant SL390s G7:
+    Два 6-ядерных процессора Intel(R) Xeon(R) CPU X5650 с тактовой частотой 2.67 GHz.
+    96 ГБ ОЗУ.
+    3 — NVIDIA Corporation Tesla M2090.
+Сервер ProLiant SL390s G7:
+    Два 6-ядерных процессора Intel(R) Xeon(R) CPU X5650 с тактовой частотой 2.67 GHz.
+    76 ГБ ОЗУ.
+    3 — NVIDIA Corporation Tesla M2050.
+Сервер ProLiant SL390s G7:
+    Два 6-ядерных процессора Intel(R) Xeon(R) CPU X5650 с тактовой частотой 2.67 GHz.
+    24 ГБ ОЗУ.
+    NVIDIA Corporation Tesla M2090.
+Сервер ProLiant SL390s:
+    Два 6-ядерных процессора Intel(R) Xeon(R) CPU X5670 с тактовой частотой 2.93 GHz.
+    96 ГБ ОЗУ.
+    5 — Tesla M2070 NVIDIA Corporation GF100GL.
+Сервер ProLiant SL390s G7:
+    Два 6-ядерных процессора Intel(R) Xeon(R) CPU X5670 с тактовой частотой 2.93 GHz.
+    96 ГБ ОЗУ.
+    3 — NVIDIA Corporation GF100GL Tesla M2070.</code></pre>
+<p>Cети передачи данных</p>
+<p>Коммуникационная сеть: Infiniband 4x QDR и DDR с пропускной способностью 40 и 20 Гбит/с соответственно и латентностью порядка 1-7 мкс. Предназначена для для доступа к сетевым системам хранения данных и для взаимодействия параллельных процессов, работающих на разных серверах кластера.</p>
+<p>Транспортная сеть: Gigabit Ethernet, используется для управления операционными системами серверов и работающими процессами. Системы хранения данных</p>
+<p>Для обеспечения отказоустойчивости используются дисковые массивы RAID уровней 1 и 5.</p>
+<p>Для хранения данных используется кластерная файловая система Lustre FS 64T.</p>
+</body>
+</html>

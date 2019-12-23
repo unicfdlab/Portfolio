@@ -20,8 +20,9 @@ Site structure
 1     | About us                             | О нас
 2     | Current and finished projects        | Текущие и завершённые проекты 
 3     | Computational resources              | Вычислительные ресурсы
-4     | Partners                             | Партнёры
-5     | Contacts                             | Контакты
+4     | Our team                             | Наша команда
+5     | Partners                             | Партнёры
+6     | Contacts                             | Контакты
 
 
 Уровень 2, Раздел 2 - Our works
