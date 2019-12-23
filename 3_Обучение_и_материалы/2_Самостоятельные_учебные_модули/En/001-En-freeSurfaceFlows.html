@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h2 id="learning-how-to-use-free-surface-flows-in-openfoam-4.1">Learning how to use free surface flows in OpenFOAM® 4.1</h2>
+<p><strong>Instructor:</strong> Victoria Korchagova, ISP RAS (Russia)</p>
+<p><strong>Training type:</strong> Intermediate</p>
+<p><strong>Session type:</strong> Lecture with examples</p>
+<p><strong>Software stack:</strong> OpenFOAM 4.1, OpenFOAM 3.0.x</p>
+<p><strong>Developers of this session:</strong></p>
+<ul>
+<li>V. Korchagova, Russia</li>
+</ul>
+<p><strong>Development team website:</strong> <a href="http://unicfd.ru" class="uri">http://unicfd.ru</a></p>
+<p><strong>Presentation language:</strong> English</p>
+<p><strong>Description:</strong></p>
+<p>Due to several changes made in OpenFOAM 2.3 and newer versions, this session aims to teach you how to setup your cases accordingly to run with <strong>interFoam</strong>.</p>
+<p>This will be a hybrid type of session: the training track will be presented as a lecture with examples, which consists of two parts. The first stage is the discussion on internal structure of <strong>interFoam</strong> solver: governing equations and approximation techniques. The second stage is the training session where the updated &quot;Spillway&quot; tutorial (see figure below) and Rayleigh-Taylor instability (see figure after &quot;Spillway&quot; tutorial) will be presented.</p>
+<div style="width:500px">
+<p><img src="../Fig/freeSurfaceFlows/spillway-problemStatement.png" style="width:100%" /></p>
+</div>
+<div style="width:100px">
+<p><img src="../Fig/freeSurfaceFlows/RT-problemStatement.png" style="width:100%" /></p>
+</div>
+<p>The structure of the training course is the following.</p>
+<ol style="list-style-type: decimal">
+<li>Introduction: why free-surface flows are so interesting for researchers and engineers; key point of training course – boundary conditions in different versions of OpenFOAM.</li>
+<li>Overview of <strong>interFoam</strong> internal structure.</li>
+<li>Description of the example case for the training course – &quot;Spillway&quot;.</li>
+<li>Steps to run &quot;Spillway&quot; tutorial (see results in figures below):
+<ol style="list-style-type: lower-alpha">
+<li><strong>blockMesh</strong> utility and &quot;blockMeshDict&quot; structure;</li>
+<li><strong>snappyHexMesh</strong> and <strong>extrudeMesh</strong> utilities;</li>
+<li>boundary conditions setup (volume fraction/velocity/pressure);</li>
+<li>&quot;fvSchemes&quot; and &quot;fvSolution&quot; setup;</li>
+<li>running <strong>interFoam</strong>; results comparision from different versions of OpenFOAM.</li>
+</ol></li>
+<li>Running Rayleigh-Taylor instability case (see results in figures below).</li>
+<li>Conclusions and discussion.</li>
+</ol>
+<div style="width:500px">
+<p><img src="../Fig/freeSurfaceFlows/res-spillway.png" style="width:100%" /></p>
+</div>
+<div style="width:100px">
+<p><img src="../Fig/freeSurfaceFlows/res-RT.png" style="width:100%" /></p>
+</div>
+<p>After running simulation, we will obtain evolution of hydrodynamic fields (velocity and pressure and liquid volume fraction) for RT and Spillway cases - see animation.</p>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/OHoaa4xCMeM">
+</iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/mwarxIXO_Q0">
+</iframe>
+<p>The attendees will be prompted to do all the steps themselves during the session. For reference, link to the wiki page of the original &quot;Spillway&quot; tutorial: <a href="https://www.hpc.ntnu.no/display/hpc/OpenFOAM+-+Spillway+Tutorial" class="uri">https://www.hpc.ntnu.no/display/hpc/OpenFOAM+-+Spillway+Tutorial</a></p>
+<p>Materials of this tutorial are located at git archive and can be downloaded from <a href="http://www.github.com" class="uri">http://www.github.com</a></p>
+<ul>
+<li>For OpenFOAM 4.1 at <a href="https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/freeSurfaceFlows-0F4.1" class="uri">https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/freeSurfaceFlows-0F4.1</a></li>
+<li>For OpenFOAM 3.0.0 at <a href="https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/freeSurfaceFlows-0F3.0.0" class="uri">https://github.com/unicfdlab/TrainingTracks/tree/master/OpenFOAM/freeSurfaceFlows-0F3.0.0</a></li>
+</ul>
+</body>
+</html>

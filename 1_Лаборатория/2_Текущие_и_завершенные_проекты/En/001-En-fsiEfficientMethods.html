@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="efficient-numerical-methods-development-for-unsteady-aerohydrodynamic-loads-computation-for-aerohydroballistic-design-of-flying-vehicles">Efficient numerical methods development for unsteady aerohydrodynamic loads computation for aerohydroballistic design of flying vehicles</h1>
+<p>It is planned to perform investigations using existent scientific background and experience in software development for further development and analysis of the modern methods of computational aerohydrodynamics, which are not implemented in known Russian and foreign software packages. Their software implementation as fully functional prototypes of the programs adapting to perform computations on the modern multiprocessor computers with cluster architecture is also planned. The considered methods seem to be effective and actual for the following areas.</p>
+<table>
+<colgroup>
+<col width="6%" />
+<col width="40%" />
+<col width="53%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">No</th>
+<th align="left">Method</th>
+<th align="left">Method summary</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1.</td>
+<td align="left"><img src="../Fig/vortexMeth.png" style="width:75.0%" /></td>
+<td align="left"><strong>Vortex method</strong> aerohydrodynamic and coupled fluid structure interaction problems with assumption of flow incompressibility appearing in aerospace engineering (computation of loads acting on the aircraft), in loads computation for the submerged structures, including freely moving and hauled structures, and in other areas: power plant engineering (calculation of vibrations of heat exchanger tubes of power plants during their flow by a coolant), mechanics of structures, buildings and constructions (flow simulation, solving of coupled problems in industrial aerodynamics, environmental assessment problems, etc.)</td>
+</tr>
+<tr class="even">
+<td align="left">2.</td>
+<td align="left"><img src="../Fig/LS-STAG_rotors.png" style="width:75.0%" /></td>
+<td align="left"><strong>Immersed boundary methods</strong> - the flow simulation on the fixed regular mesh, including high-Reynolds flows, involving known RANS, LES and DES-models of turbulence, in the presence of movable, deformable and rotating flowing surfaces that perform arbitrary large displacements; in addition to the main research line (calculation of unsteady loads in the aerohudroballistic design of the aircrafts), these methods are particularly effective in the calculation of rotating turntables, wind power plants, multi-component streamlined structures (bundles of pipes) with large displacements of separate components, etc.</td>
+</tr>
+<tr class="odd">
+<td align="left">3.</td>
+<td align="left"><img src="../Fig/RKDG_icut.png" style="width:35.0%" /></td>
+<td align="left"><strong>Discontinuous Galerkin method</strong> – modeling of complex (including discontinuous and unstable) compressible and incompressible (weakly compressible) flows in the framework of the Eulerian approach, providing both high order approximation of the solution in its smoothness regions and high resolution of discontinuities for modeling the processes of high-speed flow and, if it is necessary, for heat exchange in structural elements of aircraft.</td>
+</tr>
+</tbody>
+</table>
+<p>Under the outlined numerical methods authors of this proposal developed and implemented new modifications of corresponding approaches, which prove high computational effectiveness for specified problems. Investigations of parallelization and algorithms adaptation for providing computations on the multiprocessor computers also were performed.</p>
+<p>Research is supported by the Russian Scientific Foundation (Grant No. 17-79-20445).</p>
+</body>
+</html>
