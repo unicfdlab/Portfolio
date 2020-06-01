@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>002-En-QGDsolver</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+</head>
+<body>
+<h1 id="qgdsolver-framework">QGDsolver framework</h1>
+<p>QGDsolver is OpenFOAM framework for simulation of fluid flows using regularized equations approach. It contains library for approximation of partial derivatives at face centers of unstructured grids and a set of OpenFOAM solvers:</p>
+<ol type="1">
+<li><strong>QGDFoam</strong> - solver for compressible viscous perfect gas flows in a wide Mach number range - from 0 to infinity</li>
+<li><strong>QHDFoam</strong> - solver for incompressible viscous fluid flows with buoyancy force</li>
+<li><strong>particlesQGDFOam</strong> - solver for compressible viscous perfect gas flows in a wide Mach number range with particles - from 0 to infinity</li>
+<li><strong>particlesQHDFoam</strong> - solver for incompressible viscous fluid flows with buoyancy force with particles</li>
+<li><strong>SRFQHDFoam</strong> - solver for incompressible viscous fluid flows in rotating frame of reference with buoyancy force</li>
+<li><strong>QHDDyMFoam</strong> - solver for incompressible viscous fluid flows in domains with deforming boundary and with buoyancy force</li>
+<li><strong>interQHDFoam</strong> - solver for incompressible 2-phase viscous fluid flows with buoyancy force and surface tension</li>
+<li><strong>reactingLagrangianQGDFoam</strong> - solver for reacting multicomponent compressible viscous perfect gas flows in a wide Mach number range with particles - from 0 to infinity</li>
+<li><strong>scalarTransportQHDFoam</strong> - solver for scalar transport equation to demonstrate <strong>the very basics</strong> of QGD/QHD equations principles</li>
+</ol>
+<p>Brief description of the framework is presented HERE: <a href="https://github.com/unicfdlab/QGDsolver/blob/master/qgd-framework-2020-final.pdf" class="uri">https://github.com/unicfdlab/QGDsolver/blob/master/qgd-framework-2020-final.pdf</a></p>
+<p>In case of questions, please, write to:</p>
+<ul>
+<li>the corresponding www.cfd-online.com Forum threads: <a href="https://www.cfd-online.com/Forums/openfoam-news-announcements-other/227336-qgdsolver-openfoam-computational-framework-fluid-flows-based-regularized-equ.html" class="uri">https://www.cfd-online.com/Forums/openfoam-news-announcements-other/227336-qgdsolver-openfoam-computational-framework-fluid-flows-based-regularized-equ.html</a></li>
+<li>Issues of this repository: <a href="https://github.com/unicfdlab/QGDsolver/issues" class="uri">https://github.com/unicfdlab/QGDsolver/issues</a></li>
+</ul>
+<h2 id="simulation-of-filament-contraction-with-surface-tension">Simulation of filament contraction with surface tension</h2>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/NTMjZicfHh0">
+</iframe>
+<h2 id="simulation-of-cubic-droplet-deformations-due-to-surface-tension">Simulation of cubic droplet deformations due to surface tension</h2>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/fqqSXh5t_38">
+</iframe>
+<p><strong>Source code:</strong></p>
+<p><a href="https://github.com/unicfdlab/QGDsolver" class="uri">https://github.com/unicfdlab/QGDsolver</a></p>
+<p><strong>Programming language</strong></p>
+<p>C++</p>
+</body>
+</html>

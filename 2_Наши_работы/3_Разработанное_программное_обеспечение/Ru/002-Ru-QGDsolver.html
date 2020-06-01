@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>002-Ru-QGDsolver</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+</head>
+<body>
+<h1 id="фрэймворк-qgdsolver">фрэймворк QGDsolver</h1>
+<p>QGDsolver – фрэймворк на основе OpenFOAM, предназначенные для моделирования течений жидкости с использованием регуляризованных уравнений. Фрэймвор содержит библиотеку для аппроксимации частных производных в центрах граней ячеек и набор солверов для решения следующих задач:</p>
+<ol type="1">
+<li><strong>QGDFoam</strong> - солвер численного моделирования вязкого сжимаемого совершенного газа в широком диапазоне чисел Маха (от 0 до бесконечности)</li>
+<li><strong>QHDFoam</strong> - солвер для исследования несжимамых вязких течений с учетом силы плавучести</li>
+<li><strong>particlesQGDFOam</strong> - солвер численного моделирования вязкого сжимаемого совершенного газа в широком диапазоне чисел Маха (от 0 до бесконечности) и учетом движения частиц</li>
+<li><strong>particlesQHDFoam</strong> - солвер для исследования несжимамых вязких течений с учетом силы плавучести и учетом движения частиц</li>
+<li><strong>SRFQHDFoam</strong> - солвер для исследования несжимамых вязких течений<br />
+во вращающейся системе координати и с учетом силы плавучести</li>
+<li><strong>QHDDyMFoam</strong> - - солвер для исследования несжимамых вязких течений в области с деформирующимися границами и с учетом силы плавучести</li>
+<li><strong>interQHDFoam</strong> - солвер для исследования двухфазных несжимамых вязких течений с учетом силы плавучести и силы поверхностного натяжения</li>
+<li><strong>reactingLagrangianQGDFoam</strong> - солвер численного моделирования реагирующей смеси вязких сжимаемых совершенных газов в широком диапазоне чисел Маха (от 0 до бесконечности) и движением частиц</li>
+<li><strong>scalarTransportQHDFoam</strong> - солвер для решения уравнения переноса с помощью регуляризованного уравнения транспорта для демонстрации самого простого принципа QGD/QHD уравнений</li>
+</ol>
+<p>Краткое описание фреймворка ЗДЕСЬ: <a href="https://github.com/unicfdlab/QGDsolver/blob/master/qgd-framework-2020-final.pdf" class="uri">https://github.com/unicfdlab/QGDsolver/blob/master/qgd-framework-2020-final.pdf</a></p>
+<p>В случае вопросов можно писать:</p>
+<ul>
+<li>На соответствующей ветке www.cfd-online.com : <a href="https://www.cfd-online.com/Forums/openfoam-news-announcements-other/227336-qgdsolver-openfoam-computational-framework-fluid-flows-based-regularized-equ.html" class="uri">https://www.cfd-online.com/Forums/openfoam-news-announcements-other/227336-qgdsolver-openfoam-computational-framework-fluid-flows-based-regularized-equ.html</a></li>
+<li>В разделе Issues GitHub: <a href="https://github.com/unicfdlab/QGDsolver/issues" class="uri">https://github.com/unicfdlab/QGDsolver/issues</a></li>
+</ul>
+<h2 id="моделирование-стягивания-волокна-жидкости-за-счет-поверхностного-натяжения">Моделирование стягивания волокна жидкости за счет поверхностного натяжения</h2>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/NTMjZicfHh0">
+</iframe>
+<h2 id="моделирование-деформации-кубической-капли-за-счет-поверхностного-натяжения">Моделирование деформации кубической капли за счет поверхностного натяжения</h2>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/fqqSXh5t_38">
+</iframe>
+<p><strong>Source code:</strong></p>
+<p><a href="https://github.com/unicfdlab/QGDsolver" class="uri">https://github.com/unicfdlab/QGDsolver</a></p>
+<p><strong>Programming language</strong></p>
+<p>C++</p>
+</body>
+</html>
