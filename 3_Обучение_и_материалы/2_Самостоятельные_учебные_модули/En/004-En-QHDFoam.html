@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>004-En-QHDFoam</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h2 id="incompressible-flow-simulation-using-regularized-hydrodynamics-equations-in-openfoam-v1912">Incompressible flow simulation using regularized hydrodynamics equations in OpenFOAM v1912</h2>
+<p>Instructors: Tatiana Stenina, Aleksandr Ivanov, ISP RAS (Russia).</p>
+<p>Training type: Intermediate.</p>
+<p>Session type: Lecture with examples.</p>
+<p>Software stack: OpenFOAM v1912.</p>
+<p>Developers of this session: T. Stenina, A. Ivanov, M. Kraposhin, I. Sibgatullin.</p>
+<p>Presentation language: English.</p>
+<p>Description:</p>
+<p>One of the methods for the numerical simulation of viscous incompressible fluid flows is the quasi-hydrodynamic (QHD) approach. It is based on the regularized hydrodynamic equations, which are a generalization of the Navier-Stokes equations. This approach has a wide range of practical applications, as well as good research potential. An OpenFOAM framework based on the quasi-gas dynamic (QGD) / QHD methods were developed for convenient work with regularized equations.</p>
+<p>The training track is split into two modules, which correspond to two solvers that implement QHD numerical algorithms – the QHDFoam and particlesQHDFoam solvers. The QHDFoam is based on quasi-hydrodynamic equations and is designed to simulate incompressible flows with buoyancy and viscosity is taken into account. The solvers are suitable for problems with complex curved geometry.</p>
+<p>The particlesQHDFoam solver is designed to simulate a three-dimensional unsteady turbulent flow of an incompressible fluid coupled with particle simulations. The solution of the hydrodynamics equations system is carried out using the QHD approach with an additional OpenFOAM library to particle movement calculation.</p>
+<p>The first part of each module is an introduction to the theory of the regularized hydrodynamic equations and the mathematical model. In the second part of the module, the instructor, together with the students, performs test problems and analyzes the obtained results. Cavity flow and particle motions in a backward-facing step are considered as a tutorial (see Fig. below).</p>
+<p>Geometry</p>
+<p>Course plan:</p>
+<ol type="1">
+<li><p>Introduction to regularized/QHD equations.</p></li>
+<li><p>Introduction to OpenFOAM, case structure.</p></li>
+<li><p>Boundary conditions setup.</p></li>
+<li><p>Calculation of the regularization parameter τ and condition of stability.</p></li>
+<li><p>Basic case description (cavity) and particle-laden backward-facing step flow problem.</p></li>
+<li><p>Basic case set up and run using OpenFOAM v1912:</p></li>
+</ol>
+<ol type="a">
+<li>mesh generation utility blockMesh, configuration file blockMeshDict;</li>
+<li>setting boundary conditions for the pressure and velocity;</li>
+<li>setting numerical methods and case launch parameters: controlDict, fvSchemes, and fvSolution files;</li>
+<li>run QHDFoam; results are presented on the video (see below).</li>
+</ol>
+<ol start="7" type="1">
+<li>Particle-laden backward-facing step case set up and run using OpenFOAM v1912:</li>
+</ol>
+<ol type="a">
+<li>mesh generation utility blockMesh, configuration file blockMeshDict;</li>
+<li>setting boundary conditions for the pressure and velocity;</li>
+<li>define physical particle properties and injection properties, configuration ThermoCloudProperties;</li>
+<li>setting numerical methods and case launch parameters: controlDict, fvSchemes, and fvSolution files;</li>
+<li>run particlesQHDFoam; results are presented on the video (see below).</li>
+</ol>
+<ol start="8" type="1">
+<li>Results discussion.</li>
+</ol>
+<p>Animation of the pressure and velocity calculation results are presented below.</p>
+<p>The attendees will be prompted to do all the steps themselves during the session.</p>
+<p>Materials of this tutorial are located at git archive and can be downloaded from github.com</p>
+<p>This work is supported by the Russian Science Foundation, project № 19-11-00169.</p>
+</body>
+</html>
