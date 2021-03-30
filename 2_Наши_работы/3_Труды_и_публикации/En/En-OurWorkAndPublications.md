@@ -3,7 +3,31 @@
 
 Our articles
 ------
+**2020**
+
+1. Koshelev K.B., Melnikova V.G. Strijhak S.V. Development of iceFom solver for modeling ice accretion. Trudy ISP RAN/Proc. ISP RAS, vol. 32, issue 4, 2020. pp. 217–234 (in Russian). DOI: 10.15514/ISPRAS–2020–32(4)–16
+2. (Ru) V. N. Korchagova, S. M. Sautkina, V. V. Lukin, I. N. Fufaev. Experimental evaluation of the parallelization efficiency of the RKDG method for solving two-dimensional gas-dynamic problems. Parallel computational technologies (PCT’2020). Pp. 142 – 151.
+3. A. Epikhin and M. Kraposhin. Prediction of the Free Jet Noise Using Quasi-gas Dynamic Equations and Acoustic Analogy. ICCS 2020, Lecture Notes in Computer Science 12143, pp. 217–227, 2020. DOI: 10.1007/978-3-030-50436-6_16
+4. (Ru) Ryazanov D., Providukhina M., Sibgatullin I., Ermanyuk E. Biharmonic attractors of internal gravitational waves. "Izvestiya of the Russian Academy of Sciences. Fluid Mechanics" / Translated version of "Fluid Dynamics".
+ISSN 0568-5281 / 0015-4628
+5. Stenina T.V., Elizarova T.G., Kraposhin M.V. Regularized equations for disk pump simulation problems in OpenFOAM implementation. Preprints of the Keldysh IPM, 2020, 066, 30 p. DOI: https://doi.org/10.20948/prepr-2020-66. URL: http://library.keldysh.ru/preprint.asp?id=2020-66.
+
+6. A.V.	Ivanov, M.P.Levin, T.V. Stenina, S.V. Strijhak. Toward to Usage of Regularized Stefan Problem Solution in Icing Modeling. Proceedings of Ivannikov ISPRAS Open Conference. IEEE Xplore. p. 150-156. 2020. DOI: 10.1109/ISPRAS51486.2020.00029
+7. V. Korchagova. On Implementation of Discontinuous Galerkin Scheme for Gas Dynamics Problems Using Open-Source Software. Proceedings of Ivannikov ISPRAS Open Conference. IEEE Xplore. p. 156-162. 2020. DOI: 10.1109/ISPRAS51486.2020.00030
+8. D. Romanova, S. Strijhak, M. Kraposhin. Development of Snowyadefoam Solver for Snow Particles Simulation. Proceedings of Ivannikov ISPRAS Open Conference. IEEE Xplore. p. 166-170. 2020. DOI: 10.1109/ISPRAS51486.2020.00032
+9. D. Romanova. Comparison of Single-Velocity and Multi-Velocity Multiphase Models for Slope Flow Simulations. Proceedings of Ivannikov ISPRAS Open Conference. IEEE Xplore. p. 170-175. 2020. DOI: 10.1109/ISPRAS51486.2020.00033
+10. J. Tellez-Alvarez, S.V. Strijhak. The Multifractal Analysis in Geophysical Flows. In Memory of Prof. Jose Manuel Redondo Apraiz. Proceedings of Ivannikov ISPRAS Open Conference. IEEE Xplore. p. 179-186. 2020. DOI: 10.1109/ISPRAS51486.2020.00035
+11. A.	Vodeniktov, V. Melnikova. Investigating the Flow Conditioners Working Regimes Efficiency Using Numerical Simulations. Proceedings of Ivannikov ISPRAS Open Conference. IEEE Xplore. p. 186-191. 2020. DOI: 10.1109/ISPRAS51486.2020.00036
+
+------------------------------------------------------------------------------------------------------------
 **2019**
+
+1.	A.P. Konovalchik, M. Yu. Konopelkin, V.N. Korchagova, S.V. Strizhak, M.V. Kraposhin, M.A. Kudrov, I.A. Martynov. Use of open source software in the development of computer-aided radar design systems. Bulletin JSC Concern VKO "Almaz-Antey", № 2, 2019.
+
+ISSN 2542-0542
+
+2.	V. Korchagova, I. Fufaev, V. Lukin, I. Marchevsky, S. Sautkina. RKDG method for 2D gas dynamics simulation on uniform rectangular meshes. Irreversible Processes in Nature and Technics. Journal of Physics: Conference Series. 1348 (2019) 012098. DOI: 10.1088/1742-6596/1348/1/012098
+
 
 <a href=""> Numerical Simulation of Internal Wave Attractors in Horizontally Elongated Domains with Sloping Boundaries.</a>
 
